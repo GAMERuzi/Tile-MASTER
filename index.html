@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Tile Master</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="start-screen">
+    <h1>🍒 Tile Master</h1>
+    <p>Hoş geldin <span id="player-name">Ayşe</span>!</p>
+    <button onclick="startGame()">Oyuna Başla</button>
+  </div>
+
+  <div id="game-screen" class="hidden">
+    <div class="leaves left"></div>
+    <div class="leaves right"></div>
+
+    <div id="game-container">
+      <div id="game-board"></div>
+      <div id="slot-area"></div>
+    </div>
+
+    <p class="level-info">Bölüm: <span id="level-num">1</span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
